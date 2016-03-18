@@ -6,21 +6,21 @@ typedef struct{
 } ponto;
 
 int sinal(ponto p1, ponto p2, ponto p3){
-    return (p1.x - p3.x) * (p2.y - p3.y) - (p2.x - p3.x) * (p1.y - p3.y);
+    return abs((p1.x*(p2.y-p3.y) + p2.x*(p3.y-p1.y)+ p3.x*(p1.y-p2.y)));
 }
 
 int PontoNoTriangulo(ponto pt, ponto v1, ponto v2, ponto v3){
-    int b1, b2, b3;
-
-    b1 = (sinal(pt, v1, v2) < 0) ? 1 : 0;
-    b2 = (sinal(pt, v2, v3) < 0) ? 1 : 0;
-    b3 = (sinal(pt, v3, v1) < 0) ? 1 : 0;
-
-    return ((b1 == b2) && (b2 == b3)) ? 1 : 0;
+    int  A = sinal(v1, v2, v3);
+    int A1 = sinal(pt, v2, v3);
+    int A2 = sinal(v1, pt, v3);
+    int A3 = sinal(v1, v2, pt);
+   
+   return (A == A1 + A2 + A3);
 }
  
 int main(){
   	ponto v1, v2, v3, pnt;
+    int i, j;
 
   	scanf("%d %d", &v1.x, &v1.y);
   	scanf("%d %d", &v2.x, &v2.y);
@@ -30,7 +30,21 @@ int main(){
   	if(PontoNoTriangulo(pnt, v1, v2, v3))
   		printf("Dentro\n");
   	else
-  		printf ("Fora\n");
+  		printf("Fora\n");
+
+    ponto tmp;
+
+    for(i = 0; i < 121; i++){
+        printf("|");
+        for(j = 0; j < 121; j++){
+            tmp.x = j;
+            tmp.y = i;
+            if(tmp.x == pnt.x && tmp.y == pnt.y) printf("@");
+            else if(PontoNoTriangulo(tmp, v1, v2, v3)) printf("#");
+            else printf(" ");
+        }
+        printf("|\n");
+    }
   
   	return 0;
 }
