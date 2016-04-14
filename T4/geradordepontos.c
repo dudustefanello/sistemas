@@ -20,5 +20,5 @@ int main(){
 			printf("%d %d %d %d %d %d %d %d\n", p1x[k], p1y[k], p2x[k], p2y[k], p3x[k], p3y[k], ptx, pty);
 		}
 	}
-	retrun 0;
+	return 0;
 }
