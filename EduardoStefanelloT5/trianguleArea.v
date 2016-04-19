@@ -1,7 +1,7 @@
 module trianguleArea(input clk,
-	             	 input signed [10:0] p1x, p1y, p2x, p2y, p3x, p3y,
-				     output reg signed [23:0] s,
-				     output reg valid);
+	             input signed [10:0] p1x, p1y, p2x, p2y, p3x, p3y,
+		     output reg signed [23:0] s,
+		     output reg valid);
 
    	reg [2:0]state = 1;
    	reg signed [10:0]a, b, c;
@@ -13,7 +13,7 @@ module trianguleArea(input clk,
    	assign t4 = t1 + t2;
  
    	always @(negedge clk) begin
-      	case (state)
+      		case (state)
 			0: begin
 		 	   	state <= 1;
 			   	valid = 0;
@@ -48,6 +48,6 @@ module trianguleArea(input clk,
 			   	state <= 0;
 			   	valid <= 1;
 			end
-      	endcase
+	      	endcase
    	end
 endmodule
