@@ -1,0 +1,404 @@
+$date
+	Tue Mar 29 22:25:22 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 12 ! p1x [11:0] $end
+$var wire 12 " p1y [11:0] $end
+$var wire 12 # p2x [11:0] $end
+$var wire 12 $ p2y [11:0] $end
+$var wire 12 % p3x [11:0] $end
+$var wire 12 & p3y [11:0] $end
+$var wire 12 ' ptx [11:0] $end
+$var wire 12 ( pty [11:0] $end
+$var wire 74 ) s1 [73:0] $end
+$var wire 74 * s2 [73:0] $end
+$var wire 74 + s3 [73:0] $end
+$var wire 74 , s4 [73:0] $end
+$var wire 1 - saida $end
+$var reg 74 . r1 [73:0] $end
+$var reg 74 / r2 [73:0] $end
+$var reg 74 0 r3 [73:0] $end
+$var reg 74 1 r4 [73:0] $end
+$var reg 1 2 rsaida $end
+$scope module area1 $end
+$var wire 25 3 f1 [24:0] $end
+$var wire 26 4 f2 [25:0] $end
+$var wire 25 5 f3 [24:0] $end
+$var wire 12 6 p1x [11:0] $end
+$var wire 12 7 p1y [11:0] $end
+$var wire 12 8 p2x [11:0] $end
+$var wire 12 9 p2y [11:0] $end
+$var wire 12 : p3x [11:0] $end
+$var wire 12 ; p3y [11:0] $end
+$var wire 74 < t4 [73:0] $end
+$var reg 25 = rt4 [24:0] $end
+$var reg 25 > t1 [24:0] $end
+$var reg 26 ? t2 [25:0] $end
+$var reg 25 @ t3 [24:0] $end
+$scope module calculo1 $end
+$var wire 25 A r [24:0] $end
+$var wire 12 B x [11:0] $end
+$var wire 12 C ya [11:0] $end
+$var wire 12 D yb [11:0] $end
+$upscope $end
+$scope module calculo2 $end
+$var wire 26 E r [25:0] $end
+$var wire 25 F t1 [24:0] $end
+$var wire 12 G x [11:0] $end
+$var wire 12 H ya [11:0] $end
+$var wire 12 I yb [11:0] $end
+$var wire 25 J fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 K x [11:0] $end
+$var wire 12 L ya [11:0] $end
+$var wire 12 M yb [11:0] $end
+$var wire 25 N r [24:0] $end
+$upscope $end
+$upscope $end
+$scope module calculo3 $end
+$var wire 25 O r [24:0] $end
+$var wire 26 P t1 [25:0] $end
+$var wire 12 Q x [11:0] $end
+$var wire 12 R ya [11:0] $end
+$var wire 12 S yb [11:0] $end
+$var wire 25 T fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 U x [11:0] $end
+$var wire 12 V ya [11:0] $end
+$var wire 12 W yb [11:0] $end
+$var wire 25 X r [24:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module area2 $end
+$var wire 25 Y f1 [24:0] $end
+$var wire 26 Z f2 [25:0] $end
+$var wire 25 [ f3 [24:0] $end
+$var wire 12 \ p1x [11:0] $end
+$var wire 12 ] p1y [11:0] $end
+$var wire 12 ^ p2x [11:0] $end
+$var wire 12 _ p2y [11:0] $end
+$var wire 12 ` p3x [11:0] $end
+$var wire 12 a p3y [11:0] $end
+$var wire 74 b t4 [73:0] $end
+$var reg 25 c rt4 [24:0] $end
+$var reg 25 d t1 [24:0] $end
+$var reg 26 e t2 [25:0] $end
+$var reg 25 f t3 [24:0] $end
+$scope module calculo1 $end
+$var wire 25 g r [24:0] $end
+$var wire 12 h x [11:0] $end
+$var wire 12 i ya [11:0] $end
+$var wire 12 j yb [11:0] $end
+$upscope $end
+$scope module calculo2 $end
+$var wire 26 k r [25:0] $end
+$var wire 25 l t1 [24:0] $end
+$var wire 12 m x [11:0] $end
+$var wire 12 n ya [11:0] $end
+$var wire 12 o yb [11:0] $end
+$var wire 25 p fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 q x [11:0] $end
+$var wire 12 r ya [11:0] $end
+$var wire 12 s yb [11:0] $end
+$var wire 25 t r [24:0] $end
+$upscope $end
+$upscope $end
+$scope module calculo3 $end
+$var wire 25 u r [24:0] $end
+$var wire 26 v t1 [25:0] $end
+$var wire 12 w x [11:0] $end
+$var wire 12 x ya [11:0] $end
+$var wire 12 y yb [11:0] $end
+$var wire 25 z fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 { x [11:0] $end
+$var wire 12 | ya [11:0] $end
+$var wire 12 } yb [11:0] $end
+$var wire 25 ~ r [24:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module area3 $end
+$var wire 25 !" f1 [24:0] $end
+$var wire 26 "" f2 [25:0] $end
+$var wire 25 #" f3 [24:0] $end
+$var wire 12 $" p1x [11:0] $end
+$var wire 12 %" p1y [11:0] $end
+$var wire 12 &" p2x [11:0] $end
+$var wire 12 '" p2y [11:0] $end
+$var wire 12 (" p3x [11:0] $end
+$var wire 12 )" p3y [11:0] $end
+$var wire 74 *" t4 [73:0] $end
+$var reg 25 +" rt4 [24:0] $end
+$var reg 25 ," t1 [24:0] $end
+$var reg 26 -" t2 [25:0] $end
+$var reg 25 ." t3 [24:0] $end
+$scope module calculo1 $end
+$var wire 25 /" r [24:0] $end
+$var wire 12 0" x [11:0] $end
+$var wire 12 1" ya [11:0] $end
+$var wire 12 2" yb [11:0] $end
+$upscope $end
+$scope module calculo2 $end
+$var wire 26 3" r [25:0] $end
+$var wire 25 4" t1 [24:0] $end
+$var wire 12 5" x [11:0] $end
+$var wire 12 6" ya [11:0] $end
+$var wire 12 7" yb [11:0] $end
+$var wire 25 8" fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 9" x [11:0] $end
+$var wire 12 :" ya [11:0] $end
+$var wire 12 ;" yb [11:0] $end
+$var wire 25 <" r [24:0] $end
+$upscope $end
+$upscope $end
+$scope module calculo3 $end
+$var wire 25 =" r [24:0] $end
+$var wire 26 >" t1 [25:0] $end
+$var wire 12 ?" x [11:0] $end
+$var wire 12 @" ya [11:0] $end
+$var wire 12 A" yb [11:0] $end
+$var wire 25 B" fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 C" x [11:0] $end
+$var wire 12 D" ya [11:0] $end
+$var wire 12 E" yb [11:0] $end
+$var wire 25 F" r [24:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module area4 $end
+$var wire 25 G" f1 [24:0] $end
+$var wire 26 H" f2 [25:0] $end
+$var wire 25 I" f3 [24:0] $end
+$var wire 12 J" p1x [11:0] $end
+$var wire 12 K" p1y [11:0] $end
+$var wire 12 L" p2x [11:0] $end
+$var wire 12 M" p2y [11:0] $end
+$var wire 12 N" p3x [11:0] $end
+$var wire 12 O" p3y [11:0] $end
+$var wire 74 P" t4 [73:0] $end
+$var reg 25 Q" rt4 [24:0] $end
+$var reg 25 R" t1 [24:0] $end
+$var reg 26 S" t2 [25:0] $end
+$var reg 25 T" t3 [24:0] $end
+$scope module calculo1 $end
+$var wire 25 U" r [24:0] $end
+$var wire 12 V" x [11:0] $end
+$var wire 12 W" ya [11:0] $end
+$var wire 12 X" yb [11:0] $end
+$upscope $end
+$scope module calculo2 $end
+$var wire 26 Y" r [25:0] $end
+$var wire 25 Z" t1 [24:0] $end
+$var wire 12 [" x [11:0] $end
+$var wire 12 \" ya [11:0] $end
+$var wire 12 ]" yb [11:0] $end
+$var wire 25 ^" fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 _" x [11:0] $end
+$var wire 12 `" ya [11:0] $end
+$var wire 12 a" yb [11:0] $end
+$var wire 25 b" r [24:0] $end
+$upscope $end
+$upscope $end
+$scope module calculo3 $end
+$var wire 25 c" r [24:0] $end
+$var wire 26 d" t1 [25:0] $end
+$var wire 12 e" x [11:0] $end
+$var wire 12 f" ya [11:0] $end
+$var wire 12 g" yb [11:0] $end
+$var wire 25 h" fio [24:0] $end
+$scope module calculo1 $end
+$var wire 12 i" x [11:0] $end
+$var wire 12 j" ya [11:0] $end
+$var wire 12 k" yb [11:0] $end
+$var wire 25 l" r [24:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111111111111111111111100 l"
+b11001 k"
+b10111 j"
+b10 i"
+b1111111111111111111111100 h"
+b11001 g"
+b10111 f"
+b10 e"
+bx d"
+bx c"
+b1111111111111111111111100 b"
+b11001 a"
+b10111 `"
+b10 _"
+b1111111111111111111111100 ^"
+b11001 ]"
+b10111 \"
+b10 ["
+bx Z"
+bx Y"
+b10111 X"
+b10111 W"
+b110 V"
+bx U"
+bx T"
+bx S"
+bx R"
+bx Q"
+bx P"
+b10111 O"
+b101 N"
+b10111 M"
+b10 L"
+b11001 K"
+b110 J"
+bx I"
+bx H"
+bx G"
+b1111111111111111111110100 F"
+b11001 E"
+b10111 D"
+b110 C"
+b1111111111111111111110100 B"
+b11001 A"
+b10111 @"
+b110 ?"
+bx >"
+bx ="
+b1111111111111111111110100 <"
+b11001 ;"
+b10111 :"
+b110 9"
+b1111111111111111111110100 8"
+b11001 7"
+b10111 6"
+b110 5"
+bx 4"
+bx 3"
+b10111 2"
+b11001 1"
+b1 0"
+bx /"
+bx ."
+bx -"
+bx ,"
+bx +"
+bx *"
+b10111 )"
+b101 ("
+b11001 '"
+b110 &"
+b11001 %"
+b1 $"
+bx #"
+bx ""
+bx !"
+b0 ~
+b10111 }
+b10111 |
+b1 {
+b0 z
+b10111 y
+b10111 x
+b1 w
+bx v
+bx u
+b0 t
+b10111 s
+b10111 r
+b1 q
+b0 p
+b10111 o
+b10111 n
+b1 m
+bx l
+bx k
+b10111 j
+b11001 i
+b10 h
+bx g
+bx f
+bx e
+bx d
+bx c
+bx b
+b10111 a
+b101 `
+b11001 _
+b1 ^
+b10111 ]
+b10 \
+bx [
+bx Z
+bx Y
+b10 X
+b10111 W
+b11001 V
+b1 U
+b10 T
+b10111 S
+b11001 R
+b1 Q
+bx P
+bx O
+b10 N
+b10111 M
+b11001 L
+b1 K
+b10 J
+b10111 I
+b11001 H
+b1 G
+bx F
+bx E
+b11001 D
+b11001 C
+b10 B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+b11001 ;
+b110 :
+b11001 9
+b1 8
+b10111 7
+b10 6
+bx 5
+bx 4
+bx 3
+x2
+bx 1
+bx 0
+bx /
+bx .
+x-
+bx ,
+bx +
+bx *
+bx )
+b10111 (
+b101 '
+b11001 &
+b110 %
+b11001 $
+b1 #
+b10111 "
+b10 !
+$end
+#500
